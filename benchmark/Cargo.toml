@@ -7,7 +7,7 @@ edition = "2021"
 compute = { path = "../compute" }
 
 [target.'cfg(target_arch = "x86_64")'.dependencies]
-tfhe = { version = "0.9.0", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
+tfhe = { version = "0.10.0", features = [ "boolean", "shortint", "integer", "x86_64-unix" ] }
 
 [target.'cfg(target_arch = "aarch64")'.dependencies]
 tfhe = { version = "0.9.0", features = [ "boolean", "shortint", "integer", "aarch64-unix" ] }
