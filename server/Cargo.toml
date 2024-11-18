@@ -7,7 +7,7 @@ edition.workspace = true
 license.workspace = true
 
 [dependencies]
-s2n-quic = "1.48.0"
+s2n-quic = "1.50.0"
 tokio = { version = "1", features = ["full"] }
 compute = { path = "../compute" }
 futures-util = "0.3.31"
